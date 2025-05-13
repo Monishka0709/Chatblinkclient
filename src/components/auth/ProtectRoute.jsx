@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import { Navigate, Outlet } from "react-router-dom";
 
@@ -8,3 +9,15 @@ const ProtectRoute = ({ children, user, redirect = "/login" }) => {
 };
 
 export default ProtectRoute;
+=======
+import React from "react";
+import { Navigate, Outlet } from "react-router-dom";
+
+const ProtectRoute = ({ children, user, redirect = "/login" }) => {
+  if (!user) return <Navigate to={redirect} />;
+
+  return children ? children : <Outlet />;
+};
+
+export default ProtectRoute;
+>>>>>>> b8a3feb (first commit)
