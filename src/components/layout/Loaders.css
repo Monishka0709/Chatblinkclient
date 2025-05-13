@@ -1,0 +1,132 @@
+.Img{
+    
+    animation: breathe 2s linear infinite;
+}
+
+@keyframes breathe{
+    0%{
+        width:15rem;
+        height: 15rem;
+        
+    }
+
+    50%{
+        width: 16rem;
+        height: 16rem;
+    }
+
+    100%{
+        width:15rem;
+        height: 15rem;
+
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    @keyframes breathe{
+        0%{
+            width:8rem;
+            height: 8rem;
+            
+        }
+    
+        50%{
+            width: 9rem;
+            height: 9rem;
+        }
+    
+        100%{
+            width:8rem;
+            height: 8rem;
+    
+        }
+    }
+    
+    
+}
+
+
+@media screen and (min-width:601px) and (max-width:800px) {
+
+    @keyframes breathe{
+        0%{
+            width:12rem;
+            height: 12rem;
+            
+        }
+    
+        50%{
+            width: 13rem;
+            height: 13rem;
+        }
+    
+        100%{
+            width:12rem;
+            height: 12rem;
+    
+        }
+    }
+    
+    
+}
+
+
+.css-cyqh1t-MuiPaper-root-MuiDrawer-paper,
+.MuiDrawer-paperAnchorLeft{
+
+    background-color: #287c8b;
+    /* background: #287c5d; */
+}
+@media screen and (min-width: 900px) and (max-width: 1005px)  {
+
+    .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation3.stackDashboard.css-co6mmk-MuiPaper-root {
+        max-width: 33rem;
+    }
+
+    .MuiStack-root.stackDashboard.css-1gpaj4t-MuiStack-root {
+        max-width: 33rem;
+    }
+}
+
+
+
+
+.MuiTablePagination-selectLabel.css-s09cke-MuiTablePagination-selectLabel,
+.MuiSelect-select.MuiTablePagination-select.MuiSelect-standard.MuiInputBase-input.css-mmygx2-MuiSelect-select-MuiInputBase-input,
+.MuiTablePagination-displayedRows.css-11cfq65-MuiTablePagination-displayedRows{
+    font-family: Readex Pro;
+}
+
+@media screen and (min-width: 900px)  {
+
+    .MuiContainer-root.MuiContainer-maxWidthLg.css-16nsong-MuiContainer-root{
+
+        max-width: calc(100vw - 18rem)
+    }
+}
+
+/* @media screen and (min-width: 1300px) and (max-width: 1430px)  {
+
+    .MuiContainer-root.MuiContainer-maxWidthLg.css-16nsong-MuiContainer-root{
+
+        max-width: calc(100vw - 240px)
+    }
+}
+
+@media screen and (min-width: 1430px)  {
+
+    .MuiContainer-root.MuiContainer-maxWidthLg.css-16nsong-MuiContainer-root{
+
+        max-width: calc(100vw - 240px)
+    }
+} */
+
+.css-cyqh1t-MuiPaper-root-MuiDrawer-paper{
+    background-color: #1d5963 !important;
+
+}
+.css-16wblaj-MuiInputBase-input-MuiOutlinedInput-input{
+    font-family: Readex Pro;
+}
+
