@@ -21,7 +21,7 @@ import { resetNotificationCount } from "../../redux/reducers/chat";
 
 const SearchDialog = React.lazy(() => import('../specific/SearchDialog'))
 const NotificationDialog = React.lazy(() => import('../specific/NotificationDialog'))
-const NewGroupDialog = React.lazy(() => import('../specific/NewGroupDialog'))
+const NewGroupDialog = React.lazy(() => import('../specific/NewgroupDialog'))
 
 
 const IconBtn = ({ title, icon, onClick}) => {
